@@ -1,0 +1,47 @@
+.btn-primary {
+  background-color: #800000!important;
+  border-color: #800000!important;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #960000!important;
+  border-color: #960000!important;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 .2rem rgba(128,0,0,.5);
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  box-shadow: 0 0 0 .2rem rgba(150,0,0,.5);
+}
+
+#sidebar-wrapper {
+  background: #800000;
+}
+
+.bg-primary {
+  background-color: #800000!important;
+}
+
+.service-icon {
+  color: #800000;
+}
+
+a {
+  color: #800000;
+}
+
+a:active, a:focus, a:hover {
+  color: #960000;
+}
+
+.portfolio-item .caption {
+}
+
+@media (min-width:992px) {
+  .portfolio-item:hover .caption {
+    background-color: rgba(128,0,0,.8);
+  }
+}
+
