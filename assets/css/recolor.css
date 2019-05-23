@@ -45,3 +45,11 @@ a:active, a:focus, a:hover {
   }
 }
 
+footer.footer .social-link:hover {
+  background-color: #960000;
+}
+
+footer.footer .social-link {
+  background-color: #800000;
+}
+
