@@ -36,12 +36,9 @@ a:active, a:focus, a:hover {
   color: #960000;
 }
 
-.portfolio-item .caption {
-}
-
 @media (min-width:992px) {
   .portfolio-item:hover .caption {
-    background-color: rgba(128,0,0,.8);
+    background-color: initial;
   }
 }
 
@@ -51,5 +48,12 @@ footer.footer .social-link:hover {
 
 footer.footer .social-link {
   background-color: #800000;
+}
+
+@media (min-width:992px) {
+  .portfolio-item:hover .caption, .portfolio-item:hover img {
+    -webkit-clip-path: initial;
+    clip-path: initial;
+  }
 }
 

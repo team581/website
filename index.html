@@ -30,7 +30,7 @@
     <nav class="navbar navbar-light navbar-expand" id="sidebar-wrapper">
         <div class="container"><button data-toggle="collapse" class="navbar-toggler d-none" data-target="#"></button>
             <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav sidebar-nav" id="sidebar-nav">
+                <ul class="nav navbar-nav sidebar-nav active" id="sidebar-nav">
                     <li class="nav-item sidebar-brand" role="presentation"><a class="nav-link active js-scroll-trigger" href="#page-top">Brand</a></li>
                     <li class="nav-item sidebar-nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#page-top">Home</a></li>
                     <li class="nav-item sidebar-nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
@@ -41,19 +41,21 @@
             </div>
         </div>
     </nav>
-    <header class="d-flex masthead" style="background-image:url('/assets/img/bg-masthead.jpg');">
-        <div class="container my-auto text-center">
-            <h1 class="mb-1">Team 581</h1>
-            <h3 class="mb-5"><em>San Jose High School</em></h3><a class="btn btn-primary btn-xl js-scroll-trigger" role="button" href="#mission-statement">Learn More</a>
-            <div class="overlay"></div>
-        </div>
-    </header>
+    <div data-bs-parallax-bg="true" class="masthead" style="filter: blur(0px);">
+        <header class="d-flex">
+            <div class="container my-auto text-center">
+                <hgroup>
+                    <h1 class="text-white mb-1"><span>Team 581</span></h1>
+                    <h3 class="mb-5"><em class="text-light">San Jose High School</em></h3>
+                </hgroup><a class="btn btn-primary btn-xl js-scroll-trigger" role="button" href="#mission-statement">Learn More</a></div>
+        </header>
+    </div>
     <section id="mission-statement" class="content-section bg-light">
         <div class="container text-center">
             <div class="row">
                 <div class="col-lg-10 mx-auto">
-                    <h2>This is where the mission statement would go</h2>
-                    <p class="lead mb-5"><span><strong><em>IF&nbsp;I HAD ONE</em></strong></span></p><a class="btn btn-dark btn-xl js-scroll-trigger" role="button" href="#about-us">About Us</a></div>
+                    <h2>Mission Statement</h2>
+                    <p class="lead mb-5">To encourage the growth of robotics within our local community while promoting STEAM</p><a class="btn btn-dark btn-xl js-scroll-trigger" role="button" href="#about-us">About Us</a></div>
             </div>
         </div>
     </section>
@@ -63,28 +65,28 @@
                 <h2 class="mb-5">About Us</h2>
             </div>
             <div class="row">
-                <div class="col-md-6 col-lg-3 mb-5 mb-lg-0"><span class="mx-auto service-icon rounded-circle mb-3"><i class="icon-wrench"></i></span>
-                    <h4><strong>Wrench</strong></h4>
-                    <p class="mb-0 text-faded">we have wrench</p>
+                <div class="col-md-6 col-lg-3 mb-5 mb-lg-0"><span class="mx-auto service-icon rounded-circle mb-3"><i class="icon-calendar"></i></span>
+                    <h4><strong>Since 2001</strong></h4>
+                    <p class="mb-0">Our team was founded in 2001 at San Jose High Academy</p>
                 </div>
                 <div class="col-md-6 col-lg-3 mb-5 mb-lg-0"><span class="mx-auto service-icon rounded-circle mb-3"><i class="icon-people"></i></span>
-                    <h4><strong>Student Run</strong></h4>
-                    <p class="mb-0 text-faded">yup</p>
+                    <h4><strong>Student Organized</strong></h4>
+                    <p class="mb-0">Group of 11 club members working collaboratively to improve team 581</p>
                 </div>
-                <div class="col-md-6 col-lg-3 mb-5 mb-lg-0"><span class="mx-auto service-icon rounded-circle mb-3"><i class="icon-picture"></i></span>
-                    <h4><strong>Image</strong></h4>
-                    <p class="mb-0 text-faded">ok</p>
+                <div class="col-md-6 col-lg-3 mb-0"><span class="mx-auto service-icon rounded-circle mb-3"><i class="icon-graduation"></i></span>
+                    <h4><strong>College and Business</strong></h4>
+                    <p class="mb-0">Students learn time management and business marketing skills</p>
                 </div>
-                <div class="col-md-6 col-lg-3 mb-5 mb-lg-0"><span class="mx-auto service-icon rounded-circle mb-3"><i class="icon-mustache"></i></span>
-                    <h4><strong>Mustache</strong></h4>
-                    <p class="mb-0 text-faded"><a href="https://zws.im">ok</a></p>
+                <div class="col-md-6 col-lg-3 mb-5 mb-lg-0"><span class="mx-auto service-icon rounded-circle mb-3"><i class="icon-wrench"></i></span>
+                    <h4><strong>Technical Skills</strong></h4>
+                    <p class="mb-0">Students learn functions and uses of lab machinery and equipment</p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="callout" style="background:linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url(&quot;/assets/img/bg-callout.jpg&quot;);background-position:center center;background-repeat:no-repeat;background-size:cover;">
+    <section id="get-in-touch" class="callout" style="background:linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url(&quot;/assets/img/bg-callout.jpg&quot;);background-position:center center;background-repeat:no-repeat;background-size:cover;">
         <div class="container text-center">
-            <h2 class="mx-auto mb-5">Get in Touch</h2><a class="btn btn-primary btn-xl" role="button">Contact</a></div>
+            <h2 class="mx-auto mb-5">Get in Touch</h2><a class="btn btn-primary btn-xl" role="button" href="mailto:alex@team581.club">Contact</a></div>
     </section>
     <section id="projects" class="content-section">
         <div class="container">
@@ -96,8 +98,8 @@
                     <a class="portfolio-item">
                         <div class="caption">
                             <div class="caption-content">
-                                <h2>T-shirt cannon</h2>
-                                <p class="mb-0">robot shoot tshirt</p>
+                                <h2>2018 Pre-Season</h2>
+                                <p class="mb-0">T-Shirt cannon</p>
                             </div>
                         </div><img class="img-fluid" src="/assets/img/projects/project-1.jpg"></a>
                 </div>
@@ -105,8 +107,8 @@
                     <a class="portfolio-item">
                         <div class="caption">
                             <div class="caption-content">
-                                <h2>Ice Cream</h2>
-                                <p class="mb-0">these could be links to separate pages or something</p>
+                                <h2>2019 FRC Build Season</h2>
+                                <p class="mb-0">Drift King<br></p>
                             </div>
                         </div><img class="img-fluid" src="/assets/img/projects/project-2.jpg"></a>
                 </div>
@@ -114,8 +116,8 @@
                     <a class="portfolio-item">
                         <div class="caption">
                             <div class="caption-content">
-                                <h2>Strawberries</h2>
-                                <p class="mb-0">stolen stock photo</p>
+                                <h2>2019 FRC Competitions</h2>
+                                <p class="mb-0">Deep Space<br></p>
                             </div>
                         </div><img class="img-fluid" src="/assets/img/projects/project-3.jpg"></a>
                 </div>
@@ -123,8 +125,8 @@
                     <a class="portfolio-item">
                         <div class="caption">
                             <div class="caption-content">
-                                <h2>2019 Robot</h2>
-                                <p class="mb-0">I don't remember the name.</p>
+                                <h2>Off-Season</h2>
+                                <p class="mb-0">Tidying up the workshop</p>
                             </div>
                         </div><img class="img-fluid" src="/assets/img/projects/project-4.jpg"></a>
                 </div>
@@ -138,15 +140,16 @@
     <footer class="footer text-center">
         <div class="container">
             <ul class="list-inline mb-5">
-                <li class="list-inline-item">&nbsp;<a class="text-white social-link rounded-circle" href="mailto:no@example.com"><i class="icon-envelope"></i></a></li>
-                <li class="list-inline-item">&nbsp;<a class="text-white social-link rounded-circle" href="https://www.instagram.com/team_581/"><i class="icon-social-instagram"></i></a></li>
-                <li class="list-inline-item">&nbsp;<a class="text-white social-link rounded-circle" href="#"><i class="icon-social-github"></i></a></li>
+                <li class="list-inline-item">&nbsp;<a class="text-white social-link rounded-circle" href="mailto:alex@team581.club" target="_blank"><i class="icon-envelope"></i></a></li>
+                <li class="list-inline-item">&nbsp;<a class="text-white social-link rounded-circle" href="https://www.instagram.com/team_581/" target="_blank"><i class="icon-social-instagram"></i></a></li>
+                <li class="list-inline-item">&nbsp;<a class="text-white social-link rounded-circle" href="https://github.com/blazingbulldogs" target="_blank"><i class="icon-social-github"></i></a></li>
             </ul>
             <p class="text-muted mb-0 small">Copyright &nbsp;© Team 581 2019<br>Maintained by <a href="https://jonahsnider.ninja">Jonah Snider</a></p><a href="https://www.netlify.com"><img src="https://www.netlify.com/img/global/badges/netlify-color-bg.svg"></a></div><a class="js-scroll-trigger scroll-to-top rounded"
             href="#page-top"><i class="icon-arrow-up"></i></a></footer>
     <script src="/assets/js/jquery.min.js"></script>
     <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="/assets/js/app.js"></script>
+    <script src="/assets/js/bs-animation.js"></script>
 </body>
 
 </html>

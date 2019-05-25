@@ -2,3 +2,8 @@
   text-decoration: initial;
 }
 
+.masthead {
+  background: url(/assets/img/bg-masthead.jpg);
+  background-position: center;
+}
+
