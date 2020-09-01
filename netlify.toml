@@ -4,4 +4,4 @@
 [[redirects]]
   from = "/*"
   to = "https://www.notion.so/jonahsnider/Transition-guide-to-new-API-85f69eceed3d4d21b90a6a98e8adcce6"
-  status = 200
+  status = 301
