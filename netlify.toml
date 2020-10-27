@@ -8,11 +8,11 @@
   status = 302
 
 [[redirects]]
-  from = "/*"
-  to = "https://www.notion.so/Team-581-707552e4b9dc404d839386fb3d0c51e8"
-  status = 301
-
-[[redirects]]
   from = "/discord"
   to = "https://discord.gg/dRssXvZ"
   status = 302
+  
+[[redirects]]
+  from = "/*"
+  to = "https://www.notion.so/Team-581-707552e4b9dc404d839386fb3d0c51e8"
+  status = 301
