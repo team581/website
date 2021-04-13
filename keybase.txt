@@ -1,11 +1,11 @@
 ==================================================================
-https://keybase.io/pizzafox
+https://keybase.io/jonahsnider
 --------------------------------------------------------------------
 
 I hereby claim:
 
   * I am an admin of https://team581.club
-  * I am pizzafox (https://keybase.io/pizzafox) on keybase.
+  * I am jonahsnider (https://keybase.io/jonahsnider) on keybase.
   * I have a public key with fingerprint E3D7 8B8F 4596 CD63 5F30  4439 E85C E1D3 1913 2409
 
 To do so, I am signing this object:
@@ -13,13 +13,13 @@ To do so, I am signing this object:
 {
   "body": {
     "key": {
-      "eldest_kid": "012078d8478babc3fbf624787afc6ae06c180e8bfbfa9a5a3b2e56a7beac7b030bf80a",
+      "eldest_kid": "010125bea4ef2c8046840f48e0a54c87d7547fb439088e149a439d7616f177ebea9b0a",
       "fingerprint": "e3d78b8f4596cd635f304439e85ce1d319132409",
       "host": "keybase.io",
       "key_id": "e85ce1d319132409",
       "kid": "010125bea4ef2c8046840f48e0a54c87d7547fb439088e149a439d7616f177ebea9b0a",
-      "uid": "45f53f29517c3f06292153689754c219",
-      "username": "pizzafox"
+      "uid": "d087a62d4fc3ca345a0a666cc93bc019",
+      "username": "jonahsnider"
     },
     "service": {
       "hostname": "team581.club",
@@ -28,10 +28,10 @@ To do so, I am signing this object:
     "type": "web_service_binding",
     "version": 1
   },
-  "ctime": 1598942413,
+  "ctime": 1618346761,
   "expire_in": 157680000,
-  "prev": "0da149f464595a7323d30509d75d1f84ce19c6c833df8dc5225332112772d9c7",
-  "seqno": 138,
+  "prev": "aa298ef755cb87f18667b95e522a8b1dba1dd04add0c8efe8feacd0017101837",
+  "seqno": 6,
   "tag": "signature"
 }
 
@@ -41,35 +41,34 @@ which yields the signature:
 Version: Keybase OpenPGP v2.1.13
 Comment: https://keybase.io/crypto
 
-yMNzAnicbVJ7UFRVHN7lUYApkI8CM+XyqHSh+77nEoOGadKkmDLCBLbcx7nsXWB3
-2b2L6EZNA0PjwBSkYUjSQAmGI2NGIgwkJKCGmw+ioqIGZBiYCG1MGLRpO5fR/zr/
-nHN+5/u+3/f75vQt9TeEGKeyx4YilscEGwd7a90G8/YZrwcT7fJ+LNGD5cHFDebL
-0KWZ81QZS8RwgsQ5IAOaA6IgSpQiKiyJLpygSKwAcVYiAA6BiOoCLzACJZKQYQVO
-hILEiTiFiwrABcyEKaotFzodTtWmIVlIyUgQKDTDs5LMUoxC4TRN8RAwEiRkiuAJ
-iqRxHhEtdpfOQOZEwQUTVDuqoYt50d7/4B/6Rs4Z5IKGCikBnGYBjSs0gLjA0BLg
-ZI6hOUVELXEAIEHzAjrKHEuwCsFxEBF5cdG3e1GOZhSGUkieITiUAc6SPEkwFAt4
-JCORhN7X7YJOm1AAEdqhHjggKPZirMSEoWqRKkE9WH2SBwgNCgUMIBKkfLeIuA6n
-XbNL9nz0YtE0hytRZ2r7HTp0HxTND0TMomqTUY6IUQSdLtVuwxIJhJQ0VVclGB7w
-NEkTlAmDxQ7VCc2qjmA4FuBo6X1gkR6OLKCJFZpF8TMCR5GUTOEMjuZnZEIBNIqU
-l1gJUJSsAFliSJKhKJIgSI4jZV7iMH2sQpsdaVMAGRVykahLzbUJmtsJsZJverMD
-DMYQwyOBfvoPM4QEhz38d0O2MMOJsmlvZmRfdNaZu5tJIWhVwaeZgz/Vxbf1VWzy
-fNt7LOnl+qffJ06yoxPWmvbDpcd7gnI+7Hjpu6zhN0Y3XvL9+2p7cax1PtlXmlqZ
-Nr87KTvjXtrHI/lzh07evRj0/K5t5OQGV9Vt92zdo22nstt870wENC5EeAMHjx2l
-f67oPLg01FCdXjs/feujjd8Hl+MXY++0/tZqrDR5u+R7STWJ+14rqb6y5Gou/vVI
-a/Ed9nBXXfgzyRGx+Fd+ab92jvvfHwqM8xXe/rKmOuXJ5LG/hn1BZ5/YkHPhF58v
-5Ub5+a0D1hRr5Jbnus9lFtWC0vSq8bH+2ZYdU7NlE5aGE1k7jOkFUeCVjPVSdlXh
-nm7/ozvjPIbR5WuOcP/sbGwuvdnWLnqq6qMTWo4sjBSVxYeC1PCmWNPfiivPNX49
-6vXVTbuvd7x5ub+rLT1n3eOfzfgqYiIMwwdDtwW9G2W2slFYd7TdOrc3VQxr0h4z
-DLy3cq4h5sdbg1trCeGpTaHxC53LWvjyG6uc9y1nSjYL23dlttQ1pqyYCA44HrIu
-PnJ68tm1y+qufXGKWoGVZSgD0lTJn3+8cHr2rOlc+AfhV5d0ey/3eXtC4/ZcGbdw
-6+vfjvx8Jm3S7NegvRhcZr4Q67nU0RxQ+cnvUk+lnxLXfM2c+Vbu6qa5yrU3f2hd
-059Cduw9vXKgKr3BUmo8P/4fMLa7ZA==
-=ke9c
+yMNFAnicrVJrUFRlGN4FtFmCxEFCFEvPEA0K2zl7bt9ZnQDFCUGnphIKlpbvnPMd
+OMKe3XbPchkGCBmd9YINTDdoTB2Va4FgabOTblhUgGImKDkMRDCFlsRkiUEMnWXs
+Xz/7fny393me93nfeb8MDdQF66cs49ejwmMM+v7uBrcutyjQUIbxdrEUM5dhBWjp
+QIUicqnWAlnEzBhO4ISJ5hGkkGQSAE4xgMIlCiAc0pQAWJGlKVbiKZLDAUAExUHt
+KrIMwUgEyyKNyPE4xOIxSVbykNPhlBVVk0WkyAIeSBTNMYLIkLRE4pTGRIAWECGS
+BEeQJgrnNGK+3eVnaOZ46EJG2a79aQ/rkr3/wP/Pvt1LciIOWMiYREoSSAGSFA1x
+yDCMIHAkL+CEP6/bhZwKtCENvceuwHyXIovIiZXHY1qgSBaQv7f+Yh6CVARtNCCM
+QqGb1+gOp121C/ZCLZKvqg6X2c9USx1+aDHirQ9FrLysiForNUYRcrpku4KZCQ0p
+qLJflWAIQFKMVkc8hkocshNZZT+CZhmAa8ufBxVpkhCaOIAklqYFHrASARiG5Tka
+0SYTBDwh8pAQRZyC2iZoOAQkBAURxwlWaywgWcxf1uuKHTMzmk2Yp0m65DwFqm4n
+wsovdVuCdPpg3fJlAf4R0wUbwv4dvCspKxZ3k9TjnGcNXesNSu5atFEXl+ek9Vhe
+SbQdC+mJ+qGYmElIH78zmZIUuir15x0ZWw0XK05FDgey5XUd3slHblnW3n3vwaxT
+n7JD2vtZPuoH0epL6a+2pH1T37M9cyZsvN43NsFsrg0Dm7KYdy3VpQdu93WEP7Zp
+QI3tevkXp/HqseTu6yMrt/2xcsvRt41xn1SoiRn6t7IjPBWVqfyBBI+5tVVIdw91
+nq4c/6Dxu48LBxOzk6fXejeapp6vXj/9WuajnfBu4s3Bj7L6rQ3Pno6YclzKScjo
+nfitam5jwWrq8KFn9u3peLPaNt78IPhg2PmRckcAbOJRy+SG5xb6Iid810rKzCff
+gEHnG6ihCHR4YXupctaadDVo/qtVabHZc83dbZf5ytlzoKYk6/cVte7ue1fqAvGO
+M18PcE+dmdx9NOSFXN2hmdnPWeXUpyeOe/f2OdqenB8L+rN0y5omMenDYjdz8qf0
+tuHpOXSuZjHrQszlvsEN+wKqdtUMN//6hEk/ejbborxY3Bg1FRnt83maqox/kVkG
+b1xn0uhMlf3bAd8225Bp9Omt7/R/P5o7X1+Xs390Yab5Bhaz/vY65mDu5p0NZT/6
+2r31JffbY49EtzBf3Bu7Fhe6S7nQuGzE0xuX+ndlQ2amp/VE6011JOXO+4ntIQfu
+39p/HFiMXasNKXG94WHrdlpv/ANYvL8/
+=Q9Aq
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
 
-View my publicly-auditable identity here: https://keybase.io/pizzafox
+View my publicly-auditable identity here: https://keybase.io/jonahsnider
 
 ==================================================================
