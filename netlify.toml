@@ -1,17 +1,11 @@
 [build]
   publish = "./"
 
-# Robotics Club Member Form 2020-2021
-[[redirects]]
-  from = "/form"
-  to = "https://forms.gle/aUSqqrsFJiEZj2Ng8"
-  status = 302
-
 [[redirects]]
   from = "/discord"
-  to = "https://discord.gg/dRssXvZ"
+  to = "https://discord.gg/W8gK8jZWVW"
   status = 302
-  
+
 [[redirects]]
   from = "/*"
   to = "https://www.notion.so/Team-581-707552e4b9dc404d839386fb3d0c51e8"
