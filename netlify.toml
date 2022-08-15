@@ -5,3 +5,8 @@
   from = "/*"
   to = "https://team581.notion.site/"
   status = 301
+
+[[redirects]]
+  from = "/signup"
+  to = "https://forms.gle/Q3kJQVpLPBg4hM9Z8"
+  status = 302
