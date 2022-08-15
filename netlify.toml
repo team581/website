@@ -2,11 +2,6 @@
   publish = "./"
 
 [[redirects]]
-  from = "/discord"
-  to = "https://discord.gg/W8gK8jZWVW"
-  status = 302
-
-[[redirects]]
   from = "/*"
   to = "https://team581.notion.site/"
   status = 301
