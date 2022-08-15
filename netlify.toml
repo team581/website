@@ -1,12 +1,12 @@
 [build]
-  publish = "./"
+publish = "./"
 
 [[redirects]]
-  from = "/signup"
-  to = "https://forms.gle/Q3kJQVpLPBg4hM9Z8"
-  status = 302
+from = "/signup"
+status = 302
+to = "https://forms.gle/Q3kJQVpLPBg4hM9Z8"
 
 [[redirects]]
-  from = "/*"
-  to = "https://team581.notion.site/"
-  status = 301
+from = "/*"
+status = 301
+to = "https://team581.notion.site/"
