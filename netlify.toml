@@ -7,6 +7,11 @@ status = 302
 to = "https://forms.gle/Q3kJQVpLPBg4hM9Z8"
 
 [[redirects]]
+from = "/calendar"
+status = 302
+to = "https://team581.notion.site/Meeting-calendar-f526cec743294b5f9107e23cd629800a"
+
+[[redirects]]
 from = "/*"
 status = 301
 to = "https://team581.notion.site/"
